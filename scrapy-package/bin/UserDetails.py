@@ -1,0 +1,5 @@
+allowed_domains = 'pdfdrive.com'
+start_urls = 'https://www.pdfdrive.com'
+login_url = 'https://www.pdfdrive.com/auth/login'
+login_user = 'vaibhavshukla2811@gmail.com'
+login_password = 'vaibhav1234'

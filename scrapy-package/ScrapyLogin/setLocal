@@ -1,0 +1,897 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,target-densitydpi=160" name="viewport"/>
+<link href="/favicon.ico" rel="shortcut icon"/>
+<meta name="google-site-verification" content="CEhb1NNHLQ4klcuczJvERcX-C7xpyXPcwAB29LLiQgY"/>
+<title>PDF Drive - Ücretsiz kitaplar arayın ve indirin.</title>
+<link rel="dns-prefetch" href="//s1.pdfdrive.com"/>
+<meta name="yandex-verification" content="587d3e9c8ef97ef2"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="/assets/css/main.css,qv3.31+responsive.css,qv3.31+3rdparty.css,qv3.31.pagespeed.cc.6Filubo7cp.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>var lang={"js_save_to_my_drive":"Save<span class=\"hidemobile\"> to My Drive<\/span>","js_save_to_my_drive_2":"Save to My Drive","js_like":"Like","js_search_for_books":"Search for books, tutorials, manuals and authors in %s files","js_remote_file_unavailable_try_again":"Remote file seems unavailable right now, please try again later.","js_save_file_for_quick_download":"You need to save the file to your drive for <strong>Quick Download<\/strong> feature.","js_save_file_for_quick_preview":"You need to save the file to your drive for <strong>Quick Preview<\/strong> feature.","js_remote_file_downloaded":"Remote file downloaded to <a href=\"\/home\/cloud\">My Drive.<\/a><br\/>Now you can preview and download it faster.","js_added_to_wishlist":"Book added to your wishlist<br\/>We will let you know when the book is available.","js_an_error_occured":"An error occurred, please try again later.","js_out_of_storage":"You\u2019re out of storage space and you can't save files to your drive until you\u00a0<a href=\"\/home\/cloud\" style=\"color:#0921EA;text-decoration:underline;\">free up space<\/a>\u00a0or\u00a0<a href=\"\/premium\" style=\"color:#0921EA;text-decoration:underline;\">purchase additional storage.<\/a>","js_deleted_copyright":"Sorry, this file has been deleted due to copyright infringement!"};</script>
+<meta property="og:url" content="https://tr.pdfdrive.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="PDF Drive - Ücretsiz kitaplar arayın ve indirin."/>
+<meta property="og:description" content="PDF Drive ücretsiz kitaplar indirmek için tasarlanmış bir arama motorudur. Şu anda 72,427,464 adet E-Kitap ücretsiz olarak indirilebilir. Rahatsız edici reklamlar yok, indirme limiti yok, keyfini çıkarın ve sevdiklerinizle paylaşmayı unutmayın!"/>
+<meta property="og:image" content="https://tr.pdfdrive.com/assets/img/logo-og-2.png"/>
+<meta property="og:image:width" content="464"/>
+<meta property="og:image:height" content="600"/>
+<script>var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-118355843-2']);_gaq.push(['_trackPageview']);(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-118355843-3','auto');ga('send','pageview');</script>
+<script>var user={member:'0',premium:'0',email:'0',customer_id:'0',card_removed:'0'};var page='index';</script>
+</head>
+<body>
+<div id="progress" class="waiting">
+<dt></dt>
+<dd></dd>
+</div>
+<div id="top-menu-bg">
+<div class="header FixedTop" id="header">
+<div id="logo">
+<a href="/">
+<img src="/assets/img/logo-1.png.pagespeed.ce.vTZcG00TGG.png" id="logo-img" border="0" title="" alt=""/>
+</a>
+</div>
+<form action="/search" id="m-search-form">
+<input type="text" maxlength="200" name="q" id="m-q" autocomplete="off" placeholder="Search for books" value="" required />
+<button type="submit" style="position: absolute;top: 13px;right: 12%;color: #6b6b6b;border: none;padding: 0;background: none;">
+<i class="fa fa-search search-button" style="font-size: 20px !important;" aria-hidden="true"></i>
+</button>
+<input type="hidden" name="r" value="1" id="r"/>
+</form>
+<div id="form-container" style="position: relative;">
+<form action="/search" id="search-form" class="form-wrapper cf hidemobile">
+<input type="text" maxlength="200" name="q" id="q" autocomplete="off" placeholder="Kitaplar, makaleler, kılavuzlar ve yazarlar için ara : - - - - - dosya" value="" required />
+<button type="submit"><i class="fa fa-search search-button" aria-hidden="true"></i></button>
+<input type="hidden" name="pagecount" value="" id="pagecount-hidden"/>
+<input type="hidden" name="pubyear" value="" id="pubyear-hidden"/>
+<input type="hidden" name="searchin" value="tr" id="searchin-hidden"/>
+</form>
+</div>
+<div class="user-info clearfix">
+<a href="/donate" id="upload-top" class="user-info-inner"><i class="fa fa-heart" aria-hidden="true" style="color:#FC121E"></i> Bağış Yap</a>
+<a href="/premium" id="premium-top" class="user-info-inner" style="color: #1db954;font-weight: 500;margin-right: 13px;font-size: 17px;">Premium</a>
+<a class="btn-g hidemobile" href="/auth/login?redirURL=%2F" role="button" rel="nofollow">Giriş yap</a>
+<button id="btnLang" type="button" class="btn btn-primary btn-more dropdown-toggle dropdown-toggle-no-arrow hidemobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: -2px 0px 0px 5px;">
+<i class="fas fa-globe"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-right hidemobile" aria-labelledby="btnLang">
+<a href="https://www.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'English');">English</a>
+<a href="https://es.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Español');">Español</a>
+<a href="https://ru.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Русский');">Русский</a>
+<a href="https://tr.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Türkçe');">Türkçe</a>
+</div>
+</div>
+<button id="btnLangMobile" type="button" class="btn btn-primary btn-more dropdown-toggle dropdown-toggle-no-arrow hidedesktop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<i class="fas fa-globe"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-right hidemobile" aria-labelledby="btnLangMobile">
+<a href="https://www.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'English');">English</a>
+<a href="https://es.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Español');">Español</a>
+<a href="https://ru.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Русский');">Русский</a>
+<a href="https://tr.pdfdrive.com/home/setLocal?url=" rel="nofollow" class="dropdown-item" onclick="ga('send', 'event', 'ChangeLanguage', 'Türkçe');">Türkçe</a>
+</div>
+<a href="javascript:void(0);" id="menu-search" onClick="toggleMSearch(); window.location.hash = '';"><i class="fa fa-search" id="m-search-icon"></i></a>
+</div>
+<header>
+<div class="mobile-nav-button">
+<div class="mobile-nav-button__line"></div>
+<div class="mobile-nav-button__line"></div>
+<div class="mobile-nav-button__line"></div>
+</div>
+<nav class="mobile-menu">
+<ul>
+<li><a href="/" class="mobile-link">Ana Sayfa</a></li>
+<li><a href="/category/112" class="mobile-link">En Popüler</a></li>
+<li><a href="/category/113" class="mobile-link">Editör'ün Seçtikleri</a></li>
+<li><a href="#categories" class="mobile-link">Keşfet</a></li>
+<li><a href="/home/contact" class="mobile-link">Bize Ulaşın</a></li>
+<a class="btn-g" href="/premium" role="button" onclick="ga('send', 'event', 'Premium', 'Mobile menu');" style="margin: 35px 15px 0px 5px; float: right;">
+Premium Ol </a>
+</ul>
+<div id="signin-mobile">
+<a href="/auth/signup">
+<i class="fas fa-sign-in-alt" style="color: #1378D5;"></i> Giriş yap </a>
+</div>
+</nav>
+</header>
+</div>
+<div class="dialog">
+<div class="dialog-main">
+<div class="dialog-left">
+<div id="user-menu-header"></div>
+<div class="alert alert-info alert-dismissible fade show" role="alert" id="welcome" style="text-align: center;font-weight: 500;font-size: 17px;">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="setCookie('welcome-local', 'true', 60);
+                ga('send', 'event', 'WelcomeLocalClosed');" style="opacity: 0.6;">
+<span aria-hidden="true">×</span>
+</button>
+PDF Drive offered in: <a href="https://www.pdfdrive.com/home/setLocal?url=" rel="nofollow">English.</a> </div>
+<div class="alert alert-info alert-dismissible fade show" role="alert" id="welcome">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="setCookie('welcomed', 'true', 60);
+            ga('send', 'event', 'WelcomeClosed');" style="opacity: 0.6;">
+<span aria-hidden="true">×</span>
+</button>
+<strong>PDF Drive</strong> ücretsiz kitaplar indirmek için tasarlanmış bir arama motorudur. Şu anda <span id="counter" style="font-weight: 500;">72,427,464</span> adet E-Kitap <strong>ücretsiz olarak indirilebilir</strong>. Rahatsız edici reklamlar yok, <strong>indirme limiti yok</strong>, keyfini çıkarın ve sevdiklerinizle paylaşmayı unutmayın!</div>
+<div class="box-title" style="margin-bottom: 23px;">
+En Popüler <span class="hidemobile">Ücretsiz E-kitaplar</span> <div style="font-size: 12px; float:right;">
+<div class="btn-group" role="group">
+<a href="/" class="btn btn-primary btn-sm">Bugün</a>
+<a href="/home/index/weekly" class="btn btn-secondary btn-sm">Bu Hafta</a>
+<a href="/home/index/monthly" class="btn btn-secondary btn-sm">Bu Ay</a>
+</div>
+</div>
+</div>
+<div class="files-new">
+<ul>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/beden-dili-joe-navarro-e50509894.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/beden-dili-joe-navarro-e50509894.html" data-id="50509894">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/52d/52d462ae36a02aa94c8d547f7f85a445-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/52d/52d462ae36a02aa94c8d547f7f85a445-s.jpg" alt="Beden Dili - Joe Navarro" title="Beden Dili - Joe Navarro">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/beden-dili-joe-navarro-e50509894.html" data-loc="1">
+<h2>Beden Dili - Joe Navarro</h2>
+</a>
+<div class="file-info" data-id="50509894">
+<span class="fi-pagecount ">294 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">1610</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">5.05 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">14,437 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+birleştiren bu kitap, beden dilini öğrenip kullanarak dünyanızı nasıl kontrol altında tutacağınızı anlatıy &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/simyacı-paulo-coelho-e18673308.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/simyacı-paulo-coelho-e18673308.html" data-id="18673308">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/560/560aa8acadff827a1618e4ca4489d37f-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/560/560aa8acadff827a1618e4ca4489d37f-s.jpg" alt="Simyacı - Paulo Coelho" title="Simyacı - Paulo Coelho">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/simyacı-paulo-coelho-e18673308.html" data-loc="2">
+<h2>Simyacı - Paulo Coelho</h2>
+</a>
+<div class="file-info" data-id="18673308">
+<span class="fi-pagecount ">259 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2006</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">345 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">12,675 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+bwa yardim etsin. €€€Fakat Rab cevap verip dedi: €€€-€Marta, Marta, sen birçok sey-ler için üzülüp te &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/1984-george-orwell-e18640757.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/1984-george-orwell-e18640757.html" data-id="18640757">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/80e/80ecf15dd5ddf1be1d7605e93d7ff65a-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/80e/80ecf15dd5ddf1be1d7605e93d7ff65a-s.jpg" alt="1984 - George Orwell" title="1984 - George Orwell">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/1984-george-orwell-e18640757.html" data-loc="3">
+<h2>1984 - George Orwell</h2>
+</a>
+<div class="file-info" data-id="18640757">
+<span class="fi-pagecount ">343 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2011</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">2 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">11,301 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+George Orwell'i Can n Yayınları'ndak diğeir kitapları: Hayvan Çiftliği, 2001 Burma Günleri, 2004 Aspidistra, 2005 &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/adım-adım-İngilizce-ferhat-yildiz-e18667777.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/adım-adım-İngilizce-ferhat-yildiz-e18667777.html" data-id="18667777">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/519/5194f4630297c1eede9b6edf8987b455-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/519/5194f4630297c1eede9b6edf8987b455-s.jpg" alt="Adım adım İngilizce - Ferhat YILDIZ" title="Adım adım İngilizce - Ferhat YILDIZ">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/adım-adım-İngilizce-ferhat-yildiz-e18667777.html" data-loc="4">
+<h2>Adım adım İngilizce - Ferhat YILDIZ</h2>
+</a>
+<div class="file-info" data-id="18667777">
+<span class="fi-pagecount ">49 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">375 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">10,016 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+Gramer kitapları almanıza gerek yok. Pratik İngilizce ilk adım 12 Present simle tense 14 Present simple tense quest &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/İktidar-güç-sahibi-olmanın-48-yasası-robert-greene-e53055703.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/İktidar-güç-sahibi-olmanın-48-yasası-robert-greene-e53055703.html" data-id="53055703">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/8b7/8b7cad25bb7b78f6d7445e17624a39d1-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/8b7/8b7cad25bb7b78f6d7445e17624a39d1-s.jpg" alt="İktidar (Güç Sahibi Olmanın 48 Yasası) - Robert Greene" title="İktidar (Güç Sahibi Olmanın 48 Yasası) - Robert Greene">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/İktidar-güç-sahibi-olmanın-48-yasası-robert-greene-e53055703.html" data-loc="5">
+<h2>İktidar (Güç Sahibi Olmanın 48 Yasası) - Robert Greene</h2>
+</a>
+<div class="file-info" data-id="53055703">
+<span class="fi-pagecount ">623 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2016</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">12.66 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">8,438 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+İnsanlar ve olaylar üzerinde hiçbir gücümüzün olmaması dayanıl maz bir duygudur; çaresiz kaldığımızda ken &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/gizli-İkna-taktikleri-kevin-hogan-e117475639.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/gizli-İkna-taktikleri-kevin-hogan-e117475639.html" data-id="117475639">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/245/245f73be10dc1e030f370e3aef44d58f-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/245/245f73be10dc1e030f370e3aef44d58f-s.jpg" alt="Gizli İkna Taktikleri - Kevin Hogan" title="Gizli İkna Taktikleri - Kevin Hogan">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/gizli-İkna-taktikleri-kevin-hogan-e117475639.html" data-loc="6">
+<h2>Gizli İkna Taktikleri - Kevin Hogan</h2>
+</a>
+<div class="file-info" data-id="117475639">
+<span class="fi-pagecount ">447 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2013</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">3.26 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">7,612 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Gizli İkna Taktikleri; psikoloji, dilbilim, satış teknikleri ve iletişim alanındaki en son araştırmaların bir se &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/resat-nuri-güntekin-Çalıkuşu-e18529157.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/resat-nuri-güntekin-Çalıkuşu-e18529157.html" data-id="18529157">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/f93/f93806a9efb9ea8c8cb0c844daacebfe-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/f93/f93806a9efb9ea8c8cb0c844daacebfe-s.jpg" alt="Resat Nuri Güntekin - Çalıkuşu" title="Resat Nuri Güntekin - Çalıkuşu">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/resat-nuri-güntekin-Çalıkuşu-e18529157.html" data-loc="7">
+<h2>Resat Nuri Güntekin - Çalıkuşu</h2>
+</a>
+<div class="file-info" data-id="18529157">
+<span class="fi-pagecount ">406 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2013</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.31 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">7,816 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+Resat Nuri Güntekin - Çalıkuşu www.CepSitesi.Net Dördüncü sınıftaydım. Yasım on iki kadar olmalı. Fransızca &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/bir-kadının-zevk-anıları-john-cleland-e117512669.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/bir-kadının-zevk-anıları-john-cleland-e117512669.html" data-id="117512669">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/df2/df2064c2182b360831e73b4d6d674bf2-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/df2/df2064c2182b360831e73b4d6d674bf2-s.jpg" alt="Bir Kadının Zevk Anıları - John Cleland" title="Bir Kadının Zevk Anıları - John Cleland">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/bir-kadının-zevk-anıları-john-cleland-e117512669.html" data-loc="8">
+<h2>Bir Kadının Zevk Anıları - John Cleland</h2>
+</a>
+<div class="file-info" data-id="117512669">
+<span class="fi-pagecount ">399 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.1 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">6,768 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+İngiliz Edebiyatının kötü şöhretli olmasına rağmen satış rekorları kıran erotik romanlarındandır. Taşrad &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/avrupa-tarihi-tek-cilde-sığdırılan-en-iyi-avrupa-tarihi-kitabı-e56948160.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/avrupa-tarihi-tek-cilde-sığdırılan-en-iyi-avrupa-tarihi-kitabı-e56948160.html" data-id="56948160">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/843/843d980a680ea255ca5d72f85a1f5918-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/843/843d980a680ea255ca5d72f85a1f5918-s.jpg" alt="Avrupa Tarihi - Tek cilde sığdırılan en iyi Avrupa tarihi kitabı" title="Avrupa Tarihi - Tek cilde sığdırılan en iyi Avrupa tarihi kitabı">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/avrupa-tarihi-tek-cilde-sığdırılan-en-iyi-avrupa-tarihi-kitabı-e56948160.html" data-loc="9">
+<h2>Avrupa Tarihi - Tek cilde sığdırılan en iyi Avrupa tarihi kitabı</h2>
+</a>
+<div class="file-info" data-id="56948160">
+<span class="fi-pagecount ">776 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2015</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">17.06 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">6,714 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+laşamıyoruz (aslında düşünürsek bu soruyu cevaplayabiliriz). Bütün Helenlerin katılabildiği olimpiyat oyunl &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/hayvan-Çiftliği-george-orwell-e117473105.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/hayvan-Çiftliği-george-orwell-e117473105.html" data-id="117473105">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/f6a/f6a5a4e840380174f79448ee740da88c-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/f6a/f6a5a4e840380174f79448ee740da88c-s.jpg" alt="Hayvan Çiftliği - George Orwell" title="Hayvan Çiftliği - George Orwell">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/hayvan-Çiftliği-george-orwell-e117473105.html" data-loc="10">
+<h2>Hayvan Çiftliği - George Orwell</h2>
+</a>
+<div class="file-info" data-id="117473105">
+<span class="fi-pagecount ">189 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2001</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">485 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">6,264 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+İngiliz yazar George Orwell, ülkemizde daha çok Bin Dokuz Yüz Seksen Dört adlı kitabıyla tanınır. Hayvan Çiftl &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/karatay-mutfağı-canan-efendigil-karatay-e117481708.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/karatay-mutfağı-canan-efendigil-karatay-e117481708.html" data-id="117481708">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/448/44866f7df79ce1a59023c49b74d0474e-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/448/44866f7df79ce1a59023c49b74d0474e-s.jpg" alt="Karatay Mutfağı - Canan Efendigil Karatay" title="Karatay Mutfağı - Canan Efendigil Karatay">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/karatay-mutfağı-canan-efendigil-karatay-e117481708.html" data-loc="11">
+<h2>Karatay Mutfağı - Canan Efendigil Karatay</h2>
+</a>
+<div class="file-info" data-id="117481708">
+<span class="fi-pagecount ">740 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">3.96 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">5,911 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+"Ben şunun garantisini veriyorum: Mutfağını, Karatay Mutfağı'na çevirenler sağlık bulacak, zayıflayacak ve kil &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/bilinmeyen-bir-kadının-mektubu-stefan-zweig-e117517338.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/bilinmeyen-bir-kadının-mektubu-stefan-zweig-e117517338.html" data-id="117517338">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/b8d/b8d6ee075dd6ee73c77a3f8dd9449dc3-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/b8d/b8d6ee075dd6ee73c77a3f8dd9449dc3-s.jpg" alt="Bilinmeyen Bir Kadının Mektubu - Stefan Zweig" title="Bilinmeyen Bir Kadının Mektubu - Stefan Zweig">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/bilinmeyen-bir-kadının-mektubu-stefan-zweig-e117517338.html" data-loc="12">
+<h2>Bilinmeyen Bir Kadının Mektubu - Stefan Zweig</h2>
+</a>
+<div class="file-info" data-id="117517338">
+<span class="fi-pagecount ">111 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">344 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">5,507 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Stefan Zweig Bilinmeyen Bir Kadının Mektubu (Brief einer Unbekannten) adlı uzun öyküsünü 1920'li yılların ilk y &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/etkili-İnsanların-7-alışkanlığı-e19902368.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/etkili-İnsanların-7-alışkanlığı-e19902368.html" data-id="19902368">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/798/7988b2cbf00c75f67e3e87cba6c4c556-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/798/7988b2cbf00c75f67e3e87cba6c4c556-s.jpg" alt="Etkili İnsanların 7 Alışkanlığı" title="Etkili İnsanların 7 Alışkanlığı">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/etkili-İnsanların-7-alışkanlığı-e19902368.html" data-loc="13">
+<h2>Etkili İnsanların 7 Alışkanlığı</h2>
+</a>
+<div class="file-info" data-id="19902368">
+<span class="fi-pagecount ">787 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">8.41 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">5,477 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+ÖNSÖZ Etkili İnsanların 7 Alışkanlığı’nın ilk basımından bu yana dünya bir hayli değişti. Hayat artık &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/fareler-ve-İnsanlar-john-steinbeck-e117489786.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/fareler-ve-İnsanlar-john-steinbeck-e117489786.html" data-id="117489786">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/f84/f84f77dcdde2b8dfb9d598ebee6ff3f8-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/f84/f84f77dcdde2b8dfb9d598ebee6ff3f8-s.jpg" alt="Fareler ve İnsanlar - John Steinbeck" title="Fareler ve İnsanlar - John Steinbeck">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/fareler-ve-İnsanlar-john-steinbeck-e117489786.html" data-loc="14">
+<h2>Fareler ve İnsanlar - John Steinbeck</h2>
+</a>
+<div class="file-info" data-id="117489786">
+<span class="fi-pagecount ">231 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2013</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">469 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">5,066 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Pulitzer ve Nobel Edebiyat Ödülü'nü kazanan John Steinbeck'in çağımızın toplumsal ve insani meselelerini ustal� &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/bulantı-jean-paul-sartre-e40035713.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/bulantı-jean-paul-sartre-e40035713.html" data-id="40035713">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/d22/d22da7c7ac837280bb2ff60739666c61-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/d22/d22da7c7ac837280bb2ff60739666c61-s.jpg" alt="Bulantı - Jean Paul Sartre" title="Bulantı - Jean Paul Sartre">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/bulantı-jean-paul-sartre-e40035713.html" data-loc="15">
+<h2>Bulantı - Jean Paul Sartre</h2>
+</a>
+<div class="file-info" data-id="40035713">
+<span class="fi-pagecount ">264 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2015</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.34 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,999 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+belirtmeliyim. e-Babil Kütüphanesi · ePub ebook PDF ekitap indir Sanırım günlük tutarken en tehlikeli olan da &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/erkekler-marstan-kadınlar-venüsten-e40418308.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/erkekler-marstan-kadınlar-venüsten-e40418308.html" data-id="40418308">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/0c6/0c6a72c3d59ba8c8009ee06e6ec09993-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/0c6/0c6a72c3d59ba8c8009ee06e6ec09993-s.jpg" alt="Erkekler Mars'tan, kadınlar Venüs'ten" title="Erkekler Mars'tan, kadınlar Venüs'ten">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/erkekler-marstan-kadınlar-venüsten-e40418308.html" data-loc="16">
+<h2>Erkekler Mars'tan, kadınlar Venüs'ten</h2>
+</a>
+<div class="file-info" data-id="40418308">
+<span class="fi-pagecount ">901 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2013</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.14 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,725 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+V ALTIN KİTAPLAR ALTİN KİTAPLAR YAYI NEVİ VE. TİCARET A.Ş.'YE AİTTİR ALTIN. KİTAPLAR. ERKEKLER MARS'TAN. KAD &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/konuşarak-İkna-psikolojisi-kevin-hogan-e117475646.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/konuşarak-İkna-psikolojisi-kevin-hogan-e117475646.html" data-id="117475646">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/560/560bd4a22634dfc860263d147f6e66bb-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/560/560bd4a22634dfc860263d147f6e66bb-s.jpg" alt="Konuşarak İkna Psikolojisi - Kevin Hogan" title="Konuşarak İkna Psikolojisi - Kevin Hogan">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/konuşarak-İkna-psikolojisi-kevin-hogan-e117475646.html" data-loc="17">
+<h2>Konuşarak İkna Psikolojisi - Kevin Hogan</h2>
+</a>
+<div class="file-info" data-id="117475646">
+<span class="fi-pagecount ">573 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">2.54 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,635 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Hayatınızı Değiştirecek İletişim Sırları
+İnsanlar doğuştan etkili iletişim yeteneğine sahip değildir; ge &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/mikro-iktisat-çözümlü-300-soru-e17650216.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/mikro-iktisat-çözümlü-300-soru-e17650216.html" data-id="17650216">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/007/00732ce00521de55d0e90e9b649a90b2-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/007/00732ce00521de55d0e90e9b649a90b2-s.jpg" alt="Mikro iktisat çözümlü 300 soru" title="Mikro iktisat çözümlü 300 soru">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/mikro-iktisat-çözümlü-300-soru-e17650216.html" data-loc="18">
+<h2>Mikro iktisat çözümlü 300 soru</h2>
+</a>
+<div class="file-info" data-id="17650216">
+<span class="fi-pagecount ">87 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2015</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.24 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">6,230 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+Kariyermemur.com Sayfa 1 MİKRO İKTİSAT 1. olmAúağıdakilerden hangisi ekonomide belirtilen ihtiyaçların özellikl &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/martı-jonathan-livingston-richard-bach-e117473462.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/martı-jonathan-livingston-richard-bach-e117473462.html" data-id="117473462">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/743/743212597606156c9f906d5861a0a73b-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/743/743212597606156c9f906d5861a0a73b-s.jpg" alt="Martı Jonathan Livingston - Richard Bach" title="Martı Jonathan Livingston - Richard Bach">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/martı-jonathan-livingston-richard-bach-e117473462.html" data-loc="19">
+<h2>Martı Jonathan Livingston - Richard Bach</h2>
+</a>
+<div class="file-info" data-id="117473462">
+<span class="fi-pagecount ">63 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2006</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">251 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,550 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Durgun denizin minik dalgacıkları üzerinde, güneşin altın gibi ışıldadığı pırıl pırıl bir sabahtı. Sahi &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/peygamberler-tarihi-asim-koksal-e117491179.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/peygamberler-tarihi-asim-koksal-e117491179.html" data-id="117491179">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/f69/f699584e66c75975aaa920bfd547cea1-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/f69/f699584e66c75975aaa920bfd547cea1-s.jpg" alt="Peygamberler Tarihi - Asim Koksal" title="Peygamberler Tarihi - Asim Koksal">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/peygamberler-tarihi-asim-koksal-e117491179.html" data-loc="20">
+<h2>Peygamberler Tarihi - Asim Koksal</h2>
+</a>
+<div class="file-info" data-id="117491179">
+<span class="fi-pagecount ">1,597 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2011</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">3.85 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,473 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Peygamberler Tarihi'nde; Peygamberlerin (Salât'ü Selam olsun onlara) Soyları, hayat ve Şahsiyetleri, Üstün kişili &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/karamazov-kardeşler-fyodor-mihailoviç-dostoyevski-e117514300.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/karamazov-kardeşler-fyodor-mihailoviç-dostoyevski-e117514300.html" data-id="117514300">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/8c0/8c0b9be1c32a2e38091f2315bceb6a50-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/8c0/8c0b9be1c32a2e38091f2315bceb6a50-s.jpg" alt="Karamazov Kardeşler - Fyodor Mihailoviç Dostoyevski" title="Karamazov Kardeşler - Fyodor Mihailoviç Dostoyevski">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/karamazov-kardeşler-fyodor-mihailoviç-dostoyevski-e117514300.html" data-loc="21">
+<h2>Karamazov Kardeşler - Fyodor Mihailoviç Dostoyevski</h2>
+</a>
+<div class="file-info" data-id="117514300">
+<span class="fi-pagecount ">2,116 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2011</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">3.98 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,472 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Dostoyevski, yaşamının son yıllarında başyapıtı Karamazov Kardeşler'i tamamladığında, Rus yazınında 'felse &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/hayvanlardan-tanrilara-sapiens-e59246088.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/hayvanlardan-tanrilara-sapiens-e59246088.html" data-id="59246088">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/e77/e773d2aef7b077d5a4aabc6573af7cf8-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/e77/e773d2aef7b077d5a4aabc6573af7cf8-s.jpg" alt="HAYVANLARDAN TANRILARA - SAPIENS" title="HAYVANLARDAN TANRILARA - SAPIENS">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/hayvanlardan-tanrilara-sapiens-e59246088.html" data-loc="22">
+<h2>HAYVANLARDAN TANRILARA - SAPIENS</h2>
+</a>
+<div class="file-info" data-id="59246088">
+<span class="fi-pagecount ">329 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2016</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">5.96 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,471 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+veya fırtınanın öncü işaretlerini tanımaları gerekiyordu. şekilde dekore edilir, duvarlarında rock yıldızl &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/simyacı-paulo-coelho-e117496044.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/simyacı-paulo-coelho-e117496044.html" data-id="117496044">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/31a/31a325faf282157d85365a4893d88434-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/31a/31a325faf282157d85365a4893d88434-s.jpg" alt="Simyacı - Paulo Coelho" title="Simyacı - Paulo Coelho">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/simyacı-paulo-coelho-e117496044.html" data-loc="23">
+<h2>Simyacı - Paulo Coelho</h2>
+</a>
+<div class="file-info" data-id="117496044">
+<span class="fi-pagecount ">295 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">1993</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">581 KB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,139 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Simyacı, dünyaca ünlü Brezilyalı yazar Paulo Coelho'nun üçüncü romanı. 1996 yılından bu yana Türkiye'de de &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/bin-muhteşem-güneş-khaled-hosseini-e117494602.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/bin-muhteşem-güneş-khaled-hosseini-e117494602.html" data-id="117494602">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/c49/c49f25773552c061c6a3bc4bd87b117d-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/c49/c49f25773552c061c6a3bc4bd87b117d-s.jpg" alt="Bin Muhteşem Güneş - Khaled Hosseini" title="Bin Muhteşem Güneş - Khaled Hosseini">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/bin-muhteşem-güneş-khaled-hosseini-e117494602.html" data-loc="24">
+<h2>Bin Muhteşem Güneş - Khaled Hosseini</h2>
+</a>
+<div class="file-info" data-id="117494602">
+<span class="fi-pagecount ">676 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2008</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.51 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,041 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Nereye giderseniz gidin, ulkeniz pesinizden gelir. Artik siz orada yasamasaniz da o icinizde yasar. Afganistan'in Khaled &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/nazım-hikmet-tüm-Şiirleri-e18528822.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/nazım-hikmet-tüm-Şiirleri-e18528822.html" data-id="18528822">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/b0c/b0c4f3d959f5b9944627cfb6b9acc64e-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/b0c/b0c4f3d959f5b9944627cfb6b9acc64e-s.jpg" alt="Nazım Hikmet Tüm Şiirleri" title="Nazım Hikmet Tüm Şiirleri">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/nazım-hikmet-tüm-Şiirleri-e18528822.html" data-loc="25">
+<h2>Nazım Hikmet Tüm Şiirleri</h2>
+</a>
+<div class="file-info" data-id="18528822">
+<span class="fi-pagecount ">368 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2007</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.39 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,279 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+üniformasÕ, otomati÷i üzerinde, yani öldürme÷e, öldürülme÷e hazÕr, belki tavúan gibi korkak, belki toprak g &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/karatay-diyetiyle-yaşam-boyu-sağlık-canan-efendigil-karatay-e117481687.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/karatay-diyetiyle-yaşam-boyu-sağlık-canan-efendigil-karatay-e117481687.html" data-id="117481687">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/952/95224b2e000fd1a4318ed8319257ec81-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/952/95224b2e000fd1a4318ed8319257ec81-s.jpg" alt="Karatay Diyeti'yle Yaşam Boyu Sağlık - Canan Efendigil Karatay" title="Karatay Diyeti'yle Yaşam Boyu Sağlık - Canan Efendigil Karatay">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/karatay-diyetiyle-yaşam-boyu-sağlık-canan-efendigil-karatay-e117481687.html" data-loc="26">
+<h2>Karatay Diyeti'yle Yaşam Boyu Sağlık - Canan Efendigil Karatay</h2>
+</a>
+<div class="file-info" data-id="117481687">
+<span class="fi-pagecount ">671 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">2.05 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">3,787 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Prof. Canan Efendigil Karatay'ın yazdığı ve çıktığı günden beri 'en çok satanlar' listesinden inmeyen Karatay &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/İnsanı-tanıma-sanatı-alfred-adler-e117488750.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/İnsanı-tanıma-sanatı-alfred-adler-e117488750.html" data-id="117488750">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/bed/bed0dd665815f3578856d9f589db9bf9-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/bed/bed0dd665815f3578856d9f589db9bf9-s.jpg" alt="İnsanı Tanıma Sanatı - Alfred Adler" title="İnsanı Tanıma Sanatı - Alfred Adler">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/İnsanı-tanıma-sanatı-alfred-adler-e117488750.html" data-loc="27">
+<h2>İnsanı Tanıma Sanatı - Alfred Adler</h2>
+</a>
+<div class="file-info" data-id="117488750">
+<span class="fi-pagecount ">573 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2012</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.42 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">3,746 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span><span class="ml-1 mr-1">·</span><span class="new">Yeni!</span> <br/>
+</div>
+Çağdaş Psikolojinin üç büyük devinden biri ve bireysel psikoloji ekolünün kurucusu, Avusturyalı psikiyatr Alfr &nbsp;...
+</div>
+</div>
+</div> </li>
+<li onclick="if ('ontouchstart' in document.documentElement) {top.location='/İçimizdeki-Şeytan-sabahattin-ali-e18464995.html'}"><div class="row"> <div class="col-sm ">
+<div class="file-left">
+<a href="/İçimizdeki-Şeytan-sabahattin-ali-e18464995.html" data-id="18464995">
+<img class="img-zoom file-img" src="https://s1.pdfdrive.com/assets/thumbs/20f/20fb25d1a22fb7106f8311118e61b07c-s.jpg" data-original="https://s1.pdfdrive.com/assets/thumbs/20f/20fb25d1a22fb7106f8311118e61b07c-s.jpg" alt="İçimizdeki Şeytan - Sabahattin Ali" title="İçimizdeki Şeytan - Sabahattin Ali">
+</a>
+<span class="zoom-icon" onmouseover="$(this).css('z-index', 9);">
+<i class="fa fa-eye" aria-hidden="true"></i>
+</span>
+</div>
+<div class="file-right">
+<a href="/İçimizdeki-Şeytan-sabahattin-ali-e18464995.html" data-loc="28">
+<h2>İçimizdeki Şeytan - Sabahattin Ali</h2>
+</a>
+<div class="file-info" data-id="18464995">
+<span class="fi-pagecount ">734 Sayfa</span><span class="ml-1 mr-1">·</span><span class="fi-year ">2015</span><span class="ml-1 mr-1">·</span><span class="fi-size hidemobile">1.39 MB</span><span class="ml-1 mr-1 hidemobile">·</span><span class="fi-hit">4,058 İndirme</span><span class="ml-1 mr-1">·</span><span class="fi-lang">Türkçe</span> <br/>
+</div>
+2 Sabahattin Ali Yapı Kredi Yayınları - 968 Edebiyat - 249 İçimizdeki Şeytan / Sabahattin Ali Düzelti: İncilay Y &nbsp;...
+</div>
+</div>
+</div> </li> </ul>
+</div>
+<div class="loadmore">
+<div class="moreButton" id="moreButton" onclick="loadMore(30, 'daily'); ga('send', 'event', 'Load more similar files homepage');">
+<i class="fa fa-chevron-circle-down" aria-hidden="true" style="color: #2d96c3; margin-right: 8px;"></i> Daha fazla dosya göster</div>
+</div>
+<div id="js_image_selection" class="horizontal-scrollable-tabs mt-3">
+<div class="p-3" style="font-weight: 700;color: #4A4848;font-size: 23px;">Bunları da izleyin</div>
+<div class="scroller arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+<div class="scroller arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
+<div class="horizontal-tabs">
+<ul role="tablist" class="nav nav-tabs nav-tabs-horizontal">
+<li role="presentation">
+<a href="#eTIZ5kMsIU0" data-id="1" data-toggle="tab" class="yt-video-link"><img src="https://img.youtube.com/vi/eTIZ5kMsIU0/mqdefault.jpg"/></a>
+<div class="yt-video-title">Bu Sohbeti SAKIN İzleme Sinirlerin Alt Üst Olur - Mehmet Yıldız</div>
+</li>
+<li role="presentation">
+<a href="#FFAq-NXHv7o" data-id="169" data-toggle="tab" class="yt-video-link"><img src="https://img.youtube.com/vi/FFAq-NXHv7o/mqdefault.jpg"/></a>
+<div class="yt-video-title">Neden kitap okumalıyız?</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="tab-content">
+<div class="yt-video-container" role="tabpanel" class="tab-pane active" style="display:none;">
+<iframe src="" class="yt-video" type="text/html" frameborder="0" border="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</div>
+</div>
+<div class="dialog-right">
+<div id="user-menu-right"></div>
+<div id="recommended"></div>
+<div id="ebook-reviews"></div>
+<div class="box" id="categories">
+<div class="categories-list">
+<ul>
+<li>
+<a href="/category/113">
+<img class="img-polaroid" src="/assets/img/cat/113.jpg.pagespeed.ce.vraJshox6L.jpg" alt="Editör'ün Seçtikleri" title="Editör'ün Seçtikleri"/>
+<p>Editör'ün Seçtikleri</p>
+</a>
+</li>
+<li>
+<a href="/category/112">
+<img class="img-polaroid" src="/assets/img/cat/112.jpg.pagespeed.ce.slUI8tcf8S.jpg" alt="En Popüler" title="En Popüler"/>
+<p>En Popüler</p>
+</a>
+</li>
+<li>
+<a href="/category/6">
+<img class="img-polaroid" src="/assets/img/cat/6.jpg.pagespeed.ce.VPuV3A9OBB.jpg" alt="Akademik & Eğitim" title="Akademik & Eğitim"/>
+<p>Akademik & Eğitim</p>
+</a>
+</li>
+<li>
+<a href="/category/1">
+<img class="img-polaroid" src="/assets/img/cat/1.jpg.pagespeed.ce.wSuCeErU6O.jpg" alt="Sanat" title="Sanat"/>
+<p>Sanat</p>
+</a>
+</li>
+<li>
+<a href="/category/16">
+<img class="img-polaroid" src="/assets/img/cat/16.jpg.pagespeed.ce.9em_khEC52.jpg" alt="Biyografi" title="Biyografi"/>
+<p>Biyografi</p>
+</a>
+</li>
+<li>
+<a href="/category/3">
+<img class="img-polaroid" src="/assets/img/cat/3.jpg.pagespeed.ce.Z80V6KjTKS.jpg" alt="İş & Kariyer" title="İş & Kariyer"/>
+<p>İş & Kariyer</p>
+</a>
+</li>
+<li>
+<a href="/category/17">
+<img class="img-polaroid" src="/assets/img/cat/17.jpg.pagespeed.ce.wB8QReZuTW.jpg" alt="Çocuklar & Gençler" title="Çocuklar & Gençler"/>
+<p>Çocuklar & Gençler</p>
+</a>
+</li>
+<li>
+<a href="/category/18">
+<img class="img-polaroid" src="/assets/img/cat/18.jpg.pagespeed.ce.sdGel4aIZg.jpg" alt="Çevre & Doğa" title="Çevre & Doğa"/>
+<p>Çevre & Doğa</p>
+</a>
+</li>
+<li>
+<a href="/category/11">
+<img class="img-polaroid" src="/assets/img/cat/11.jpg.pagespeed.ce.aYwddHlCx4.jpg" alt="Edebiyat & Roman" title="Edebiyat & Roman"/>
+<p>Edebiyat & Roman</p>
+</a>
+</li>
+<li>
+<a href="/category/8">
+<img class="img-polaroid" src="/assets/img/cat/8.jpg.pagespeed.ce.E6RfFED8nf.jpg" alt="Sağlık & Spor" title="Sağlık & Spor"/>
+<p>Sağlık & Spor</p>
+</a>
+</li>
+<li>
+<a href="/category/19">
+<img class="img-polaroid" src="/assets/img/cat/19.jpg.pagespeed.ce.B_md7MhTkI.jpg" alt="Hobi & Yaşam" title="Hobi & Yaşam"/>
+<p>Hobi & Yaşam</p>
+</a>
+</li>
+<li>
+<a href="/category/4">
+<img class="img-polaroid" src="/assets/img/cat/4.jpg.pagespeed.ce.d1edk8aH0S.jpg" alt="Kişisel Gelişim" title="Kişisel Gelişim"/>
+<p>Kişisel Gelişim</p>
+</a>
+</li>
+<li>
+<a href="/category/15">
+<img class="img-polaroid" src="/assets/img/cat/15.jpg.pagespeed.ce.nWOG-w-0ML.jpg" alt="Siyaset & Yasalar" title="Siyaset & Yasalar"/>
+<p>Siyaset & Yasalar</p>
+</a>
+</li>
+<li>
+<a href="/category/10">
+<img class="img-polaroid" src="/assets/img/cat/10.jpg.pagespeed.ce.TBCGn_Cp1R.jpg" alt="Din & Maneviyat" title="Din & Maneviyat"/>
+<p>Din & Maneviyat</p>
+</a>
+</li>
+<li>
+<a href="/category/14">
+<img class="img-polaroid" src="/assets/img/cat/14.jpg.pagespeed.ce.QdUUIm0mjb.jpg" alt="Bilim & Araştırma" title="Bilim & Araştırma"/>
+<p>Bilim & Araştırma</p>
+</a>
+</li>
+<li>
+<a href="/category/5">
+<img class="img-polaroid" src="/assets/img/cat/5.jpg.pagespeed.ce.n385hhUe56.jpg" alt="Teknoloji" title="Teknoloji"/>
+<p>Teknoloji</p>
+</a>
+</li>
+</ul>
+</div>
+<form class="form-inline hidemobile" onsubmit="validate('cats'); return false;">
+<span id="subscribe-heading">Gelen Kutunuza En Popüler Ücretsiz Kitapları Alın</span>
+<div id="subscribebox-cats">
+<div class="input-group input-group-sm" style="width: 350px;height: 40px;">
+<input type="text" autocomplete="on" name="email" required value="" class="form-control" id="email-cats" placeholder="E-postanızı giriniz">
+<span class="input-group-btn">
+<button type="submit" class="btn btn-danger subscribe-btn">Abone Ol</button>
+</span>
+</div>
+</div>
+</form>
+<div class="quotes">“ Bizi güçlü yapan yediklerimiz değil, hazmettiklerimizdir; bizi zengin yapan kazandıklarımız değil, muhafaza ettiklerimizdir; bizi bilgili yapan okuduklarımız değil, kafamıza yerleştirdiklerimizdir. ” ― <strong>Bacon</strong></div>
+</div>
+<div>
+<a target="_blank" href='https://play.google.com/store/apps/details?id=pdfdrive.inc.asaha.pdfdrive_official'><img alt='PDF Drive App' src='https://play.google.com/intl/en_us/badges/images/generic/tr_badge_web_generic.png' style="width: 170px; margin-left: -10px;"/></a>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div> <div class="modal fade" id="pdfdriveAlerts" tabindex="-1" role="dialog" aria-labelledby="pdfdriveAlerts">
+<div class="modal-dialog" role="document">
+<div class="modal-content alerts-content">
+<div class="modal-body alerts-body mb-4">
+<img src="https://www.pdfdrive.com/assets/img/pd-trending-mail.jpg" class="alerts-img" alt="free e-books">
+<i class="fas fa-times" style="position: absolute;top: 0px;right: 0px;padding: 9px;color: #fff;cursor:pointer;" onclick="$('#pdfdriveAlerts').modal('hide')"></i>
+<form class="form-inline pt-1" onsubmit="validate('alerts'); return false;">
+<div class="alerts-heading">Gelen Kutunuza En Popüler Ücretsiz Kitapları Alın</div>
+<div id="subscribebox-alerts" style="margin: 0px auto;">
+<div class="input-group input-group-sm" style="height: 40px; margin: 0px auto;">
+<input type="text" autocomplete="on" name="email" required value="" class="alerts-email form-control" id="email-alerts" placeholder="E-postanızı giriniz">
+<span class="input-group-btn">
+<button type="submit" class="btn btn-danger subscribe-btn">Abone Ol</button>
+</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="footer" id="footer">
+<div class="footer-section" style="text-align: center;" id="footer-logo">
+<a href="/">
+<img src="/assets/img/logo-1.png.pagespeed.ce.vTZcG00TGG.png" width="175" border="0" title="PDF Search Engine" alt="PDF Search Engine" style="padding-top: 45px;"/>
+</a>
+</div>
+<div class="footer-section">
+<div class="footer-title" title="0.0126 / 01-03-2019 10:22:26 / 195.201.87.181">
+Şirket </div> <br/>
+<a href="/home/about" rel="nofollow">Hakkında</a><br/>
+<a href="/app">Mobil Uygulama</a><br/>
+<a href="/home/terms" rel="nofollow">Hizmet Şartları</a><br/>
+</div>
+<div class="footer-section">
+<div class="footer-title">Sosyal</div><br/>
+<a href="https://twitter.com/pdfdrive" target="_blank">Twitter</a><br/>
+<a href="https://www.facebook.com/pdfdrive" target="_blank">Facebook</a><br/>
+<a href="/donate">Bağış Yap ♥</a><br/>
+</div>
+<div class="footer-section">
+<div class="footer-title">Yardım</div><br/>
+<a href="/home/contact" rel="nofollow">Bize Ulaşın</a><br/>
+<a href="/home/contact" rel="nofollow">Gerı Bildirim</a><br/>
+<a href="/home/dmca" rel="nofollow">DMCA Telif Hakkı</a><br/>
+</div>
+<div style="clear:both"></div>
+</div>
+</div>
+<script src="/assets/js/combined.js,qv3.31.pagespeed.jm.lTQKIkEiK9.js" type="text/javascript"></script>
+<script type="text/javascript">function toggleMSearch(){if($("#m-search-form").is(":visible")){if($("#m-q").val()==""){$('#m-search-form').hide();$('#m-search-icon').removeClass('fa-times-circle');$('#m-search-icon').addClass('fa-seach');$('#btnLangMobile').show();}else{$("#m-q").val('');$('#m-q').focus();}}else{$('#m-search-form').show();$('#m-search-icon').removeClass('fa-seach');$('#m-search-icon').addClass('fa-times-circle');$('#btnLangMobile').hide();$('#logo').removeClass();$('#m-q').focus();}}var loadingSmilars=0;function loadMore(start,orderby){if(orderby==undefined)orderby='';if(loadingSmilars==1)return;loadingSmilars=1;$(".loadmore:last").html('<center><i class="fa fa-sync-alt fa-spin-custom"></i></center>');$.get('/home/index?s='+start+'&ajax=1&a=1&p='+orderby,function(data){$(".loadmore:last").html(data);$(".img-zoom").hoverIntent({over:makeLarge,out:makeSmall});$('[data-toggle="popover"]').popover();activateLastLoaded();});loadingSmilars=0;}function activateLastLoaded(){$(".img-zoom").hoverIntent({over:makeLarge,out:makeSmall});initTooltips();aiSimilar();$('[data-toggle="popover"]').popover();}function mobileMenu(){$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(1)").toggleClass("mobile-nav-button__line--1");$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(2)").toggleClass("mobile-nav-button__line--2");$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(3)").toggleClass("mobile-nav-button__line--3");$('.mobile-menu').toggleClass('mobile-menu--open');window.history.pushState({page:1},"","");}$(document).ready(function(){$("#lightSlider, #lightSliderbottom").lightSlider({autoWidth:true,slideMove:3,slideMargin:10,addClass:'',mode:"slide",useCSS:true,cssEasing:'ease',easing:'linear',speed:600,auto:true,loop:true,slideEndAnimation:true,pause:1500,pauseOnHover:true,keyPress:false,controls:false,prevHtml:'',nextHtml:'',rtl:false,adaptiveHeight:false,vertical:false,verticalHeight:500,vThumbWidth:100,thumbItem:10,pager:false,gallery:false,galleryMargin:15,thumbMargin:5,currentPagerPosition:'middle',enableTouch:true,enableDrag:true,freeMove:true,swipeThreshold:40,responsive:[],onBeforeStart:function(el){},onSliderLoad:function(el){},onBeforeSlide:function(el){},onAfterSlide:function(el){},onBeforeNextSlide:function(el){},onBeforePrevSlide:function(el){}});});$(document).ready(function(){if(window.innerWidth<=1174){$('#user-menu-header').html($('#user-menu-right').html());$('#user-menu-inner').addClass('pull-right');$('#user-menu-right').html('');}var animations=['pulse','rubberBand','flip','tada','','jello','bounceInLeft','flip','flip','lightSpeedIn','','','','','','','','','','','','','','','','','',''];var randomAnimation=animations[Math.floor(Math.random()*animations.length)];$('#logo').addClass('animated '+randomAnimation);$.fn.horizontalTabs=function(){var $elem=$(this),widthOfReducedList=$elem.find('.nav-tabs-horizontal').width(),widthOfList=0,currentPos=0,adjustScroll=function(){widthOfList=0;$elem.find('.nav-tabs-horizontal li').each(function(index,item){widthOfList+=$(item).width();});widthAvailale=$elem.width();if(widthOfList>widthAvailale){$elem.find('.scroller').show();updateArrowStyle(currentPos);widthOfReducedList=$elem.find('.nav-tabs-horizontal').width();}else{$elem.find('.scroller').hide();}},scrollLeft=function(){$elem.find('.nav-tabs-horizontal').animate({scrollLeft:currentPos-widthOfReducedList},500);if(currentPos-widthOfReducedList>0){currentPos-=widthOfReducedList;}else{currentPos=0;}},scrollRight=function(){$elem.find('.nav-tabs-horizontal').animate({scrollLeft:currentPos+widthOfReducedList},500);if((currentPos+widthOfReducedList)<(widthOfList-widthOfReducedList)){currentPos+=widthOfReducedList;}else{currentPos=(widthOfList-widthOfReducedList);}},manualScroll=function(){currentPos=$elem.find('.nav-tabs-horizontal').scrollLeft();updateArrowStyle(currentPos);},updateArrowStyle=function(position){if(position>=(widthOfList-widthOfReducedList)){$elem.find('.arrow-right').addClass('disabled');}else{$elem.find('.arrow-right').removeClass('disabled');};if(position<=0){$elem.find('.arrow-left').addClass('disabled');}else{$elem.find('.arrow-left').removeClass('disabled');};};$(window).resize(function(){adjustScroll();});$elem.find('.arrow-left').on('click.horizontalTabs',function(){scrollLeft();});$elem.find('.arrow-right').on('click.horizontalTabs',function(){scrollRight();});$elem.find('.nav-tabs-horizontal').scroll(function(){manualScroll();});adjustScroll();return this;}
+$("#js_image_selection").horizontalTabs();$(".yt-video-link").click(function(e){$('.yt-video-container').hide();$('.yt-video').attr('src','https://www.youtube.com/embed/'+$(this).attr('href').substring(1)+'?autoplay=1');$('.yt-video-container').show();$.post("/Category/videoHit",{id:$(this).attr('data-id')}).done(function(data){});});$('.mobile-nav-button, .mobile-link').on('click',function(e){e.preventDefault();$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(1)").toggleClass("mobile-nav-button__line--1");$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(2)").toggleClass("mobile-nav-button__line--2");$(".mobile-nav-button .mobile-nav-button__line:nth-of-type(3)").toggleClass("mobile-nav-button__line--3");if($(this).hasClass('mobile-link')){setTimeout("location.replace('"+$(this).attr('href')+"')",650);setTimeout("$('.mobile-menu').toggleClass('mobile-menu--open')",350);}else{$('.mobile-menu').toggleClass('mobile-menu--open');window.history.pushState({page:1},"","");}});if("ontouchstart"in document.documentElement){$(".dialog").on('click',function(e){if($('.mobile-menu').hasClass('mobile-menu--open')){mobileMenu();e.preventDefault();}});}$('#q').autocomplete({serviceUrl:'/search/complete',triggerSelectOnValidInput:false,preventBadQueries:false,onSelect:function(suggestion){$("#search-form").submit();}});$('#m-q').autocomplete({serviceUrl:'/search/complete',triggerSelectOnValidInput:false,onSelect:function(suggestion){$('#q').val($('#m-q').val());$("#search-form").submit();}});$("#m-search-form").submit(function(event){$('#q').val($('#m-q').val());$("#search-form").submit();event.preventDefault();});$("#m-q").focus(function(){window.scrollTo(0,0);});activateLastLoaded();window.onbeforeunload=function(){$({property:0}).animate({property:105},{duration:3000,step:function(){var _percent=Math.round(this.property);$('#progress').css('width',_percent+"%");if(_percent==105){$("#progress").addClass("done");}}});};});</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57ccc5e72aba183a"></script>
+</body>
+</html>

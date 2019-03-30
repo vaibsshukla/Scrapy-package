@@ -1,0 +1,6 @@
+
+Step-1 : Source script file 
+source ./Location.sh
+
+Step-2 : run Form.py file
+python $SCRT/ScrapyWeb/form.py
